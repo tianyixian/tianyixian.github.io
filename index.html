@@ -58,24 +58,33 @@
         .photo-gallery {
             display: flex;
             flex-wrap: wrap;
-            gap: 10px;
-            justify-content: center; /* 居中显示 */
+            gap: 20px;
+            justify-content: space-evenly; /* 均匀分布 */
             margin-top: 20px;
         }
         
         .photo {
-            width: 100%; /* 默认宽度为100%，可以根据需要调整 */
-            max-width: 200px; /* 图片最大宽度200px */
-            height: auto; /* 保持比例 */
-            border-radius: 8px; /* 圆角效果 */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 给图片加个阴影效果 */
+            width: 100%;
+            max-width: 400px; /* 可以更大，400px示例 */
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
         }
+        
+        @media (max-width: 900px) {
+            .photo {
+                width: 48%; /* 中屏幕设备，图片占据48%的宽度，两张图片一行 */
+                max-width: 48%;
+            }
+        }
+        
         @media (max-width: 600px) {
             .photo {
-                width: 100%; /* 在手机等小屏设备上，图片占满整行 */
+                width: 100%; /* 手机等小屏幕设备，每行一张图片 */
                 max-width: 100%;
             }
         }
+
 
     </style>
 </head>
@@ -274,11 +283,14 @@
                 <li>Strong sense of purpose, results-oriented, adaptable to change, and stays current with new developments.</li>
             </ul>
             
-            <h2 class="section-title">个人风采</h2>
+            <h2 class="section-title">My profile</h2>
             <div class="photo-gallery">
                 <img src="lifestyle1.jpg" alt="生活照片1" class="photo">
                 <img src="lifestyle2.jpg" alt="生活照片2" class="photo">
                 <img src="lifestyle3.jpg" alt="生活照片3" class="photo">
+                <img src="lifestyle4.jpg" alt="生活照片4" class="photo">
+                <img src="lifestyle5.jpg" alt="生活照片5" class="photo">
+                <img src="lifestyle6.jpg" alt="生活照片6" class="photo">
             </div>
             
         </div>
