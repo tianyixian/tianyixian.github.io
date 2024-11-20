@@ -51,118 +51,228 @@
         .clear {
             clear: both;
         }
+        /* Hide English content initially */
+        .english {
+            display: none;
+        }
     </style>
 </head>
 <body>
     <div class="container">
+        <button id="toggleLanguage">Switch to English</button>
         <img src="photo.jpg" alt="Yixian Tian" class="profile-img">
-        <h1>Yixian Tian</h1>
-        <p><span class="highlight">Age:</span> 20 years old</p>
-        <p><span class="highlight">Location:</span> Beijing, Haidian</p>
-        <p><span class="highlight">Political outlook:</span> League member</p>
-        <p><span class="highlight">School of graduation:</span> Beijing University of Posts and Telecommunications</p>
-        <p><span class="highlight">TEL:</span> 14775376967</p>
-        <p><span class="highlight">E-mail:</span> tianyixian.nanshan@foxmail.com</p>
         
-        <div class="clear"></div>
-        
-        <h2 class="section-title">Education</h2>
-        <p><strong>Beijing University of Posts and Telecommunications, IOT Engineering</strong></p>
-        <p>Queen Mary University of London, IOT Engineering</p>
-        <p><span class="highlight">Ranking:</span> 2/181 (Top 1.1%)</p>
-        <p><span class="highlight">Major courses:</span> Data Structures (98), C language programming (100), Signals and Systems, Discrete Mathematics (92), Fundamentals of Electronic Systems (96), Linear Algebra (98), etc.</p>
-        <p><span class="highlight">Achievements:</span> First-class scholarship, "Merit Student" title, and others.</p>
+        <!-- Chinese Content -->
+        <div class="chinese">
+            <h1>田一贤</h1>
+            <p><span class="highlight">年龄：</span>20岁</p>
+            <p><span class="highlight">所在地：</span>北京，海淀</p>
+            <p><span class="highlight">政治面貌：</span>团员</p>
+            <p><span class="highlight">六级成绩：</span>550</p>
+            <p><span class="highlight">毕业院校：</span>北京邮电大学</p>
+            <p><span class="highlight">电话：</span>14775376967</p>
+            <p><span class="highlight">邮箱：</span>tianyixian.nanshan@foxmail.com</p>
 
-        <h2 class="section-title">Work Experience</h2>
-        <p><strong>Assistant Research Internship, Zero Lab of Peking University</strong> (2024.3 - now)</p>
-        <ul>
-            <li>Reading and analyzing papers about adversarial attack and adversarial training.</li>
-            <li>Attending, recording, and presenting at the weekly group seminar.</li>
-        </ul>
+            <div class="clear"></div>
+            
+            <h2 class="section-title">教育经历</h2>
+            <p><strong>北京邮电大学，物联网工程</strong></p>
+            <p><strong>伦敦玛丽女王大学，物联网工程</strong></p>
+            <p><span class="highlight">排名：</span>7/181（前4%）</p>
+            <p><span class="highlight">主修课程：</span>数据结构（98）、C语言程序设计（100）、信号与系统、离散数学（92）、电子系统基础（96）、线性代数（98）等。</p>
+            <p><span class="highlight">主要获奖情况：</span>集创赛算能杯全国企业大奖，互联网+大学生创新创业北京一等，中国国际大学生创新竞赛北京市区一等，多次获得校一等奖学金，“三好学生”称号。</p>
 
-        <h2 class="section-title">Leadership Experience</h2>
-        <p><strong>Class Monitor and League Branch Secretary</strong></p>
-        <ul>
-            <li>Held more than 5 class meetings each semester.</li>
-            <li>Acted as class representative and managed personnel records.</li>
-        </ul>
-        <p><strong>Vice President of Guangdong-Hong Kong-Macao Cultural Association in BUPT</strong></p>
-        <ul>
-            <li>Organized community entertainment activities to promote Guangdong culture.</li>
-        </ul>
+            <h2 class="section-title">工作经历</h2>
+            <p><strong>科研助理实习生，北京大学zero实验室</strong> (2024.6 - 2024.8)</p>
+            <ul>
+                <li>阅读和分析关于对抗攻击和对抗训练的论文。</li>
+                <li>参加、记录并在每周小组研讨会上进行汇报。</li>
+            </ul>
 
-        <h2 class="section-title">Awards & Honors</h2>
-        <ul>
-            <li>H Award in the 2024 American Mathematical Contest In Modeling (MCM).</li>
-            <li>First prize in the Third National University IOT Innovation Challenge.</li>
-            <li>First prize in the "Internet+" project at the university level.</li>
-            <li>Third prize in the provincial competition of Chinese Collegiate Computing Competition.</li>
-            <li>Second prize in the university's Future Star English dubbing final.</li>
-        </ul>
+            <p><strong>机器学习算法实习，美团战略投资部</strong> (2024.1 - 2024.4)</p>
+            <ul>
+                <li>负责图像识别模型的算法优化和模型优化。</li>
+                <li>基于机器学习提取的数据，分析和评估金融模型。</li>
+                <li>与客户和需求部门进行沟通协调。</li>
+                <li>持续维护和优化现有的深度学习模型。</li>
+            </ul>
 
-        <h2 class="section-title">Skills</h2>
-        <ul>
-            <li>Programming: C, C++, Java, Python, SQL, Matlab, etc.</li>
-            <li>Software: Office, LaTeX, SPSS, etc.</li>
-            <li>Languages: English (CET-4: 581, CET-6: 492)</li>
-            <li>Other: Industrial Internet-IoT Engineer Certificate, C1 driving license.</li>
-        </ul>
+            <p><strong>小米公司支持的物联网家具大学生创新创业项目</strong> (2023.9 - 2024.9)</p>
+            <ul>
+                <li>负责小米物联网家居设备的硬件构建和米规格网络协议的通信。</li>
+                <li>作为北京安居智联科技有限公司的经理，负责公司的内部财务，确保符合公司政策和行业法规。</li>
+                <li>负责协助团队领导进行整体规划和项目计划书的编写。</li>
+                <li>担任团队的技术顾问。</li>
+            </ul>
+
+            <p><strong>班长和团委书记</strong> (2023.9 - 2024.9)</p>
+            <ul>
+                <li>为同学解决实际问题，上传并为学生提供服务。</li>
+                <li>每学期举办超过5次班会，包括诚信考试和安全教育宣传、知识分享、青年学习和党积极分子选举。</li>
+                <li>作为班级代表，协助同学与老师联系。</li>
+                <li>撰写每次党支部会议的会议记录，并管理出席人员。</li>
+            </ul>
+
+            <p><strong>北京邮电大学粤港澳文化协会副会长</strong> (2023.6 - 至今)</p>
+            <ul>
+                <li>负责策划案的编写和审阅，协调财务与策划人员的工作安排。</li>
+                <li>每学期组织3次社区娱乐活动，推动广东文化的传播。</li>
+            </ul>
+
+
+            <h2 class="section-title">经历</h2>
+            <ul>
+                <li>作为团队负责人获得2024年美国数学建模竞赛（MCM）H奖。</li>
+                <li>获得第三届全国大学生物联网创新挑战赛编程赛道一等奖。</li>
+                <li>获得北京邮电大学“互联网+”大学生创新创业项目一等奖。</li>
+                <li>作为独立发明人，目前提交了两项国家发明专利（在审）。</li>
+                <li>作为团队负责人获得省级中国大学生计算机竞赛三等奖。</li>
+                <li>制作了一个电子电路相关项目，可自动测量电容、电感、品质因数和损耗角正切D。</li>
+                <li>使用STM32制作了一个霍尔效应自行车速度测量模块，支持GPS定位。</li>
+                <li>参加2024年中国大学生IC创新大赛，设计了卡车疲劳检测设备，获得国家企业奖，相当于全国第一名。</li>
+                <li>参加2023年TI杯全国大学生电子设计大赛。</li>
+                <li>参加2022年亚太数学建模竞赛（APMCM）。</li>
+                <li>参加IC创新竞赛训练营，学习了PyTorch深度学习、模型构建，使用Linux系统和Python wheel库，并通过训练的模型制作了一个跟踪识别小车。</li>
+            </ul>
+
+            <h2 class="section-title">技能</h2>
+            <ul>
+                <li>编程：C、C++、Java、Python、SQL、Matlab等。</li>
+                <li>软件：Office、LaTeX、SPSS等。</li>
+                <li>语言：英语（CET-4: 581，CET-6: 550）</li>
+                <li>软件应用：精通Office软件和PPT进度报告，熟悉LaTeX论文写作方法，擅长信息查询、SPSS数据处理和分析，绘制数据图表。</li>
+                <li>深度学习与工具：了解神经网络，Anaconda和PyCharm虚拟环境,PyTorch深度学习框架，使用Linux系统和Python wheel进行包分发。</li>
+                <li>操作系统：熟悉Windows平台上的应用软件，如Word、Excel 2013、Photoshop 2022等。</li>
+                <li>其他：工业互联网-IoT工程师证书，C1D驾照。</li>
+            </ul>
+
+
+            <h2 class="section-title">关于我</h2>
+            <ul>
+                <li>性格开朗，易于相处，具备强烈的责任感和荣誉感。</li>
+                <li>工作努力，与同学关系融洽，生活自律，热爱阅读和运动。</li>
+                <li>对数字敏感，喜欢挑战自己，乐于助人。</li>
+                <li>具有强烈的目标感，以结果为导向，适应变化，始终保持与时俱进。</li>
+            </ul>
+
+        </div>
+
+        <!-- English Content -->
+        <div class="english">
+            <h1>Yixian Tian</h1>
+            <p><span class="highlight">Age:</span> 20</p>
+            <p><span class="highlight">Location:</span> Beijing, Haidian</p>
+            <p><span class="highlight">Political outlook:</span> League member</p>
+            <p><span class="highlight">CET-6:</span> 550</p>
+            <p><span class="highlight">School of graduation:</span> Beijing University of Posts and Telecommunications</p>
+            <p><span class="highlight">TEL:</span> 14775376967</p>
+            <p><span class="highlight">E-mail:</span> tianyixian.nanshan@foxmail.com</p>
+
+            <div class="clear"></div>
+            
+            <h2 class="section-title">Education</h2>
+            <p><strong>Beijing University of Posts and Telecommunications, IOT Engineering</strong></p>
+            <p><strong>Queen Mary University of London, IOT Engineering</strong></p>
+            <p><span class="highlight">Ranking:</span> 7/181 (Top 4%)</p>
+            <p><span class="highlight">Major courses:</span> Data Structures (98), C language programming (100), Signals and Systems, Discrete Mathematics (92), Fundamentals of Electronic Systems (96), Linear Algebra (98), etc.</p>
+            <p><span class="highlight">Achievements:</span> First-class scholarship, "Merit Student" title, and others.</p>
+
+            <h2 class="section-title">Work Experience</h2>
+            <p><strong>Assistant Research Internship, Zero Lab of Peking University</strong> (2024.6 - 2024.8)</p>
+            <ul>
+                <li>Reading and analyzing papers about adversarial attack and adversarial training.</li>
+                <li>Attending, recording, and presenting at the weekly group seminar.</li>
+            </ul>
+
+            <p><strong>Machine Learning Algorithm Engineer, Strategic Investment Department of Meituan</strong> (2024.1 - 2024.4)</p>
+            <ul>
+                <li>Responsible for algorithm optimization and model optimization of image recognition models.</li>
+                <li>Analyze and estimate financial models based on extracted data from machine learning.</li>
+                <li>Liaise with customers and requirements departments.</li>
+                <li>Continuous maintenance and optimization of existing deep learning models.</li>
+            </ul>
+
+            <p><strong>College Student Innovation and Entrepreneurship Project of IOT Furniture Supported by Xiaomi</strong> (2023.9 - 2024.9)</p>
+            <ul>
+                <li>Responsible for the hardware construction of Xiaomi IOT home devices and the communication of Mi spec network protocol.</li>
+                <li>As the manager of Beijing Anju Zhilian Technology Co., LTD., handle the company's internal finance, ensure compliance with company policies and industry regulations.</li>
+                <li>Responsible for assisting the team leader in overall planning and project plan writing.</li>
+                <li>Act as technical advisor to the team.</li>
+            </ul>
+
+            <p><strong>Class Monitor and League Branch Secretary</strong> (2023.9 - 2024.9)</p>
+            <ul>
+                <li>Solve practical problems for classmates, upload and serve students.</li>
+                <li>Hold more than 5 class meetings each semester, including integrity examination and safety education propaganda, knowledge sharing, youth study, and election of party activists.</li>
+                <li>Act as class representative to help students get in touch with teachers.</li>
+                <li>Write the meeting log of each party branch meeting and manage the present personnel.</li>
+            </ul>
+
+            <p><strong>Vice President of Guangdong-Hong Kong-Macao Cultural Association in BUPT</strong> (2023.6 - now)</p>
+            <ul>
+                <li>Responsible for the writing and review of planning cases, scheduling and liaison of financial and planning personnel.</li>
+                <li>Organize community entertainment activities three times per semester to promote Guangdong culture.</li>
+            </ul>
+
+
+            <h2 class="section-title">Awards & Honors</h2>
+            <ul>
+                <li>H Award in the 2024 American Mathematical Contest In Modeling (MCM) as a team leader.</li>
+                <li>First prize in the Third National University IOT Innovation Challenge - Programming Track.</li>
+                <li>First prize in the "Internet+" project at the university level at Beijing University of Posts and Telecommunications.</li>
+                <li>As an independent inventor, currently submitting two national invention patents (All submitted and in trial).</li>
+                <li>Full marks in programming at university, Advanced Mathematics 96, Linear Algebra 98, first in the GPA of my freshman major, second in the English entrance test of BUPT (Rank 2/2000).</li>
+                <li>Third prize in the provincial competition of Chinese Collegiate Computing Competition as a team leader.</li>
+                <li>Made an electronic circuit related project that can automatically measure capacitance, inductance, quality factor, and loss angle tangent D.</li>
+                <li>Created a Hall-effect bicycle speed measuring module using STM32, capable of GPS positioning.</li>
+                <li>Participated in the China College IC-Innovation Competition 2024 and designed a truck fatigue detection equipment. Win the National Enterprise Award, equals to the first Nationally</li>
+                <li>Participated in the TI Cup National College Students Electronic Design Competition in 2023.</li>
+                <li>Participated in the Asia and Pacific Mathematical Contest in Modeling 2022 (APMCM).</li>
+                <li>Participated in the training camp of the IC-Innovation Competition, where I learned PyTorch deep learning, model building, used Linux system and Python wheel library, and built a tracking identification car through the trained model.</li>
+            </ul>
+
+
+            <h2 class="section-title">Skills</h2>
+            <ul>
+                <li>Programming: C, C++, Java, Python, SQL, Matlab, etc.</li>
+                <li>Software: Office, LaTeX, SPSS, etc.</li>
+                <li>Languages: English (CET-4: 581, CET-6: 550)</li>
+                <li>Software Applications: Proficient in Office software and PPT for progress reports, familiar with LaTeX for paper writing, skilled in information retrieval, SPSS data processing and analysis, and data chart creation.</li>
+                <li>Deep Learning & Tools: Knowledge of neural networks, Anaconda and PyCharm virtual environments, PyTorch deep learning framework, and package distribution using Linux system and Python wheel.</li>
+                <li>Operating Systems: Familiar with various application software on the Windows platform, such as Word, Excel 2013, Photoshop 2022, etc.</li>
+                <li>Other: Industrial Internet-IoT Engineer Certificate, C1D driving license.</li>
+            </ul>
+
+            <h2 class="section-title">It's me</h2>
+            <ul>
+                <li>Good command of English, with experience as an International School student.</li>
+                <li>Cheerful and easy to get along with, possessing a strong sense of responsibility and honor.</li>
+                <li>Hardworking, with good relationships with classmates, self-discipline in daily life, and a love for reading and sports.</li>
+                <li>Numerically sensitive, enjoys challenging myself, and always ready to assist others.</li>
+                <li>Strong sense of purpose, results-oriented, adaptable to change, and stays current with new developments.</li>
+            </ul>
+
+            
+        </div>
     </div>
-</body>
-<body>
-    <div class="container">
-        <img src="photo.jpg" alt="Yixian Tian" class="profile-img">
-        <h1>Yixian Tian</h1>
-        <p><span class="highlight">Age:</span> 20 years old</p>
-        <p><span class="highlight">Location:</span> Beijing, Haidian</p>
-        <p><span class="highlight">Political outlook:</span> League member</p>
-        <p><span class="highlight">School of graduation:</span> Beijing University of Posts and Telecommunications</p>
-        <p><span class="highlight">TEL:</span> 14775376967</p>
-        <p><span class="highlight">E-mail:</span> tianyixian.nanshan@foxmail.com</p>
-        
-        <div class="clear"></div>
-        
-        <h2 class="section-title">Education</h2>
-        <p><strong>Beijing University of Posts and Telecommunications, IOT Engineering</strong></p>
-        <p>Queen Mary University of London, IOT Engineering</p>
-        <p><span class="highlight">Ranking:</span> 2/181 (Top 1.1%)</p>
-        <p><span class="highlight">Major courses:</span> Data Structures (98), C language programming (100), Signals and Systems, Discrete Mathematics (92), Fundamentals of Electronic Systems (96), Linear Algebra (98), etc.</p>
-        <p><span class="highlight">Achievements:</span> First-class scholarship, "Merit Student" title, and others.</p>
 
-        <h2 class="section-title">Work Experience</h2>
-        <p><strong>Assistant Research Internship, Zero Lab of Peking University</strong> (2024.3 - now)</p>
-        <ul>
-            <li>Reading and analyzing papers about adversarial attack and adversarial training.</li>
-            <li>Attending, recording, and presenting at the weekly group seminar.</li>
-        </ul>
-
-        <h2 class="section-title">Leadership Experience</h2>
-        <p><strong>Class Monitor and League Branch Secretary</strong></p>
-        <ul>
-            <li>Held more than 5 class meetings each semester.</li>
-            <li>Acted as class representative and managed personnel records.</li>
-        </ul>
-        <p><strong>Vice President of Guangdong-Hong Kong-Macao Cultural Association in BUPT</strong></p>
-        <ul>
-            <li>Organized community entertainment activities to promote Guangdong culture.</li>
-        </ul>
-
-        <h2 class="section-title">Awards & Honors</h2>
-        <ul>
-            <li>H Award in the 2024 American Mathematical Contest In Modeling (MCM).</li>
-            <li>First prize in the Third National University IOT Innovation Challenge.</li>
-            <li>First prize in the "Internet+" project at the university level.</li>
-            <li>Third prize in the provincial competition of Chinese Collegiate Computing Competition.</li>
-            <li>Second prize in the university's Future Star English dubbing final.</li>
-        </ul>
-
-        <h2 class="section-title">Skills</h2>
-        <ul>
-            <li>Programming: C, C++, Java, Python, SQL, Matlab, etc.</li>
-            <li>Software: Office, LaTeX, SPSS, etc.</li>
-            <li>Languages: English (CET-4: 581, CET-6: 492)</li>
-            <li>Other: Industrial Internet-IoT Engineer Certificate, C1 driving license.</li>
-        </ul>
-    </div>
+    <script>
+        // Language toggle functionality
+        document.getElementById('toggleLanguage').addEventListener('click', function() {
+            var chineseContent = document.querySelector('.chinese');
+            var englishContent = document.querySelector('.english');
+            
+            // Toggle the display of Chinese and English sections
+            if (chineseContent.style.display === 'none') {
+                chineseContent.style.display = 'block';
+                englishContent.style.display = 'none';
+                this.textContent = 'Switch to English';
+            } else {
+                chineseContent.style.display = 'none';
+                englishContent.style.display = 'block';
+                this.textContent = '切换到中文';
+            }
+        });
+    </script>
 </body>
 </html>
