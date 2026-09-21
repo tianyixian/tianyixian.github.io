@@ -15,7 +15,7 @@ redirect_from:
 # News
 - [2026.09] 进入复旦大学计算与智能创新学院攻读计算机科学与技术硕士,同时加入上海创智学院
 - [2026.06] 本科毕业于北京邮电大学国际学院物联网工程,保研排名 3/182(前 1.6%)
-- [2024.12] 第八届全国大学生集成电路创新创业大赛"算能杯"获**全国企业大奖(全国第一)**,奖金 10000 元([获奖推文一](https://mp.weixin.qq.com/s/TXCH_aqigV4EbfU-9PQt_g)、[获奖推文二](https://is.bupt.edu.cn/info/1031/4456.htm))
+- [2024.12] 第八届全国大学生集成电路创新创业大赛"算能杯"获**全国企业大奖(全国第一)**,奖金 10000 元([获奖推文一](https://mp.weixin.qq.com/s/TXCH_aqigV4EbfU-9PQt_g)、[获奖推文二](https://is.bupt.edu.cn/info/1031/4456.htm)、[获奖推文三](https://mp.weixin.qq.com/s/SBcCPu9yA5Rw5rIfBhJAVQ))
 
 # Education
 - **复旦大学**  
