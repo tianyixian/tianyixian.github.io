@@ -7,10 +7,10 @@
 
 # Site Settings
 locale: "en-US"
-title: "田一贤"
+title: "Tian Yixian"
 title_separator: "-"
-name: &name "田一贤"
-description: &description "田一贤的个人学术主页"
+name: &name "Tian Yixian"
+description: &description "Tian Yixian's personal academic homepage"
 url: "https://tianyixian.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: "tianyixian/tianyixian.github.io"
@@ -80,11 +80,11 @@ analytics:
 
 # Site Author
 author:
-  name: "田一贤"
-  name2: "Tian Yixian"
+  name: "Tian Yixian"
+  name2: "田一贤"
   avatar: "profile.jpg"
-  bio: "复旦大学 计算机科学与技术 硕士生"
-  location: "上海 / 深圳"
+  bio: "Master's student in Computer Science and Technology, Fudan University"
+  location: "Shanghai / Shenzhen"
   employer:
   pubmed:
   googlescholar:

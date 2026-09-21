@@ -9,58 +9,58 @@ redirect_from:
 
 {% include base_path %}
 
-完整简历(PDF)请见 [此处]({{ base_path }}/files/cv.pdf)。
+The full CV (PDF, in Chinese) is available [here]({{ base_path }}/files/cv.pdf).
 
-教育经历
+Education
 ======
-* 复旦大学,计算与智能创新学院,计算机科学与技术(硕士),2026.09 - 至今
-* 上海创智学院,2026.09 - 至今
-* 北京邮电大学,物联网工程,2022.09 - 2026.06(综合成绩 92.56,保研排名 3/182,前 1.6%)
+* Fudan University, College of Computer Science and Artificial Intelligence — M.E. in Computer Science and Technology, Sep. 2026 – present
+* Shanghai Innovation Institute (SII) — Sep. 2026 – present
+* Beijing University of Posts and Telecommunications (BUPT) — B.E. in Internet of Things Engineering, Sep. 2022 – Jun. 2026 (overall score 92.56, ranked 3/182, top 1.6%)
 
-主修课程成绩:数据结构(98)、程序设计(100)、线性代数(95)、电子系统基础(96)、矩阵理论(94)、高等数学(93)
+Core courses: Data Structures (98), Programming (100), Linear Algebra (95), Fundamentals of Electronic Systems (96), Matrix Theory (94), Advanced Mathematics (93)
 
-工作与科研经历
+Research & Work Experience
 ======
-* 2025.09 - 2026.05:研究助理,复旦大学 MOSS-VL 基模小组
-  * 负责视频-语言数据构建:结构设计、清洗与自动化组装
-  * 构建困难样本并进行大规模质量控制
-  * 结合论文调研探索复杂场景(注意力分散、multi-step RL)的数据构造方法,支撑 VLM 训练与评测
-* 2025.07 - 2025.08:科研项目实习,浙江大学 NESA 实验室
-  * 使用 AutoGen 搭建智能体,探索大模型理解多元表格的映射规则(行列关系、数据关联)
-* 2025.04 - 2025.07:网络应用研究助理,中科院计算机网络信息中心前瞻实验室
-  * 在 Arena 平台搭建并复现远程-本地协同渲染框架 RenderFusion
-* 2024.12 - 2025.03:数据收集实习,北京邮电大学计算机学院十五组
-  * 大规模爬取并分析卫星相关开源数据,构建自动分类 pipeline 与抽样分类工作
-* 2024.06 - 2024.08:科研实习,北京大学 Zero 实验室
-  * 使用 Linux 远程服务器训练调试 Generalist(ResNet / WRN 网络)
-  * 在 Generalist 中嵌入 detection 层加强训练,准确率提升 0.5 个百分点
+* Sep. 2025 – May 2026: Research Assistant, MOSS-VL Foundation-Model Team, Fudan University
+  * Video-language data construction: schema design, cleaning, and automated assembly of video data
+  * Built hard samples and performed large-scale quality control
+  * Explored data construction methods for complex scenarios (distraction, multi-step RL) informed by literature surveys, supporting VLM training and evaluation
+* Jul. 2025 – Aug. 2025: Research Intern, NESA Lab, Zhejiang University
+  * Built agents with AutoGen to study how LLMs understand mapping rules of heterogeneous tables (row–column relations, data associations)
+* Apr. 2025 – Jul. 2025: Research Assistant (Network Applications), Informatization Prospective Technology Research Laboratory, CNIC, Chinese Academy of Sciences
+  * Re-implemented RenderFusion, a remote–local collaborative rendering framework, on the Arena platform
+* Dec. 2024 – Mar. 2025: Data Collection Intern, Research Group 15, School of Computer Science, BUPT
+  * Large-scale crawling and analysis of satellite-related open-source data; built an automated classification pipeline and sampling-based annotation workflow
+* Jun. 2024 – Aug. 2024: Research Intern, Zero Lab, Peking University
+  * Trained and debugged Generalist (ResNet / WRN backbones) on remote Linux servers
+  * Embedded a detection layer into Generalist, improving accuracy by 0.5 percentage points
 
-项目经历
+Projects
 ======
-* 2024:卡车疲劳检测设备(全国大学生集成电路创新创业大赛,企业大奖·全国第一,奖金 10000 元)
-  * 设计基于多模态传感 + AI 的驾驶员疲劳检测系统,解决货运行业安全痛点
-  * 负责算法开发(S3FD 人脸检测 + 关键点定位),在少林派 TPU 上部署优化,延迟 < 200ms
-* 阿里云天池大学生决赛(江苏常州国赛),优胜奖(2000 元)
+* 2024: Truck Fatigue Detection Device — National College Student Integrated Circuit Innovation and Entrepreneurship Competition, Enterprise Grand Award (national first place), prize of ¥10,000
+  * Designed a driver fatigue detection system based on multimodal sensing + AI, addressing safety pain points in the freight industry
+  * Responsible for algorithm development (S3FD face detection + landmark localization); deployed and optimized on a SOPHON Shaolin Pi TPU board with sub-200 ms latency
+* Alibaba Cloud Tianchi College Student Competition — national finals (Changzhou, Jiangsu), Winning Prize (¥2,000)
 
-荣誉奖项
+Honors & Awards
 ======
-* 集成电路创新创业大赛"算能杯"全国企业大奖(全国第一)
-* "互联网+"大学生创新创业大赛北京市一等奖
-* 中国国际大学生创新竞赛北京市一等奖
-* 全国大学生物联网创新挑战赛编程赛道一等奖
-* 美国大学生数学建模竞赛(MCM)H 奖(队长)
-* 全国大学生数学竞赛三等奖
-* 中国大学生计算机设计大赛省三等奖(队长)
-* 北京邮电大学一等奖学金(两次,10000 元)
-* 作为独立发明人拥有一项物联网工程机械相关发明专利
+* Enterprise Grand Award (national first place), Sophgo Cup, National College Student Integrated Circuit Innovation and Entrepreneurship Competition ("IC-Innovation Challenge")
+* First Prize (Beijing Division), China College Students' "Internet+" Innovation and Entrepreneurship Competition
+* First Prize (Beijing Division), China International College Students' Innovation Competition
+* First Prize, National College Student IoT Innovation Challenge, Programming Track
+* Honorable Mention, Mathematical Contest in Modeling (MCM) 2024 (team leader)
+* National Third Prize, Chinese Mathematics Competition
+* Provincial Third Prize, Chinese Collegiate Computing Competition (team leader)
+* First-Class Scholarship of BUPT (twice, ¥10,000 each)
+* One invention patent on IoT construction machinery (sole inventor)
 
-技能
+Skills
 ======
-* 编程:C、C++、Java、Python、SQL、Matlab
-* 框架:了解 Megatron、Ray 分布式框架与深度学习框架,具有较强工程实现能力与服务器大规模调用经验,CCF-CSP 230
-* 语言:英语(CET-4: 582,CET-6: 550)
+* Programming: C, C++, Java, Python, SQL, Matlab
+* Frameworks: Megatron and Ray distributed frameworks, deep learning frameworks; strong engineering skills and large-scale server experience; CCF-CSP certification 230 points
+* English: CET-4: 582, CET-6: 550
 
-学生工作
+Service & Leadership
 ======
-* 团支部书记兼班长(2023 - 2024)
-* 粤港澳文化社副社长(2023 - 2025)
+* League Branch Secretary & Class Monitor (2023 – 2024)
+* Vice President, Guangdong–Hong Kong–Macao Culture Society (2023 – 2025)
